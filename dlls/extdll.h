@@ -38,13 +38,13 @@
 #define NOSERVICE
 #define NOMCX
 #define NOIME
-#include "WINDOWS.H"
-
+//modified
+//#include "WINDOWS.H">
 // Misc C-runtime library headers
-#include "STDIO.H"
-#include "STDLIB.H"
-#include "MATH.H"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+// end of modified
 // Header file containing definition of globalvars_t and entvars_t
 typedef int	func_t;					//
 typedef int	string_t;				// from engine's pr_comp.h;
