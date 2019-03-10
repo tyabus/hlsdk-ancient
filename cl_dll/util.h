@@ -19,6 +19,17 @@
 #include <windows.h>
 #endif
 
+// modified
+#ifndef TRUE
+#define TRUE 1
+#endif
+#ifndef FALSE
+#define FALSE 0
+#endif
+
+// end of modified
+
+
 #include "../engine/cvardef.h"
 
 // Macros to hook function calls into the HUD object

@@ -38,7 +38,13 @@
 #define NOSERVICE
 #define NOMCX
 #define NOIME
-//modified
+// modified
+#ifndef FALSE
+#define FALSE 0
+#endif
+#ifndef TRUE
+#define TRUE 0
+#endif
 #ifdef _WIN32
 #include <windows.h>
 #endif
