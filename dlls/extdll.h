@@ -39,7 +39,9 @@
 #define NOMCX
 #define NOIME
 //modified
-//#include "WINDOWS.H">
+#ifdef _WIN32
+#include <windows.h>
+#endif
 // Misc C-runtime library headers
 #include <stdio.h>
 #include <stdlib.h>

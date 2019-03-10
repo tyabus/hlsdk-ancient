@@ -15,8 +15,9 @@
 //
 // util.h
 //
-
+#ifdef _WIN32
 #include <windows.h>
+#endif
 
 #include "../engine/cvardef.h"
 
